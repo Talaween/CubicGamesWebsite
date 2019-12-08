@@ -3,6 +3,8 @@ var express = require('express');
 //create an express app
 var app = express();
 
+//this comment was added on 8th Jan 2020
+
 const path = require('path');
 app.use(express.static('public'));
 
